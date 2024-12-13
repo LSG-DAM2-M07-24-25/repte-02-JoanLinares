@@ -1,9 +1,10 @@
 package com.example.repte_02_joanlinares.viewModel
 
+import androidx.lifecycle.ViewModel
 import com.example.repte_02_joanlinares.R
 import com.example.repte_02_joanlinares.model.Imatge
 
-class ResultatViewModel {
+class ResultatViewModel : ViewModel() {
     private val images = listOf(
         Imatge(1, R.drawable.gomah),
         Imatge(2, R.drawable.goku),
